@@ -1,0 +1,34 @@
+# on 4 GPUs
+## data
+data_file: dataset/traffic.csv
+num_channels: 862
+seq_len: 336
+label_len: 96
+stride: 128
+patch_len: 128
+
+## model
+model: gridtst
+num_layers: 5
+ffn_dim: 256
+d_model: 256
+dropout: 0.2
+attention_dropout: 0.1
+revin_affine: false
+norm_type: batchnorm
+attention_strategy: channel_first
+
+## training
+per_device_train_batch_size: 12
+per_device_eval_batch_size: 12
+adam_eps: 1.0e-8
+weight_decay: 0.01
+max_grad_norm: 1.0
+lr: 0.0005
+max_train_epochs: 200
+seed: 19980406
+gradient_accumulation_steps: 1
+val_check_interval: 1.0
+pct_start: 0.2
+fp16: false
+torch_compile: false

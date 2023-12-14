@@ -1,0 +1,35 @@
+## device: 1 v100-32G
+## base configuration
+
+## data
+data_file: dataset/national_illness.csv
+num_channels: 7
+seq_len: 104
+label_len: 24
+stride: 8
+patch_len: 64
+
+## model
+model: gridtst
+num_layers: 3
+d_model: 96
+num_heads: 4
+ffn_dim: 256
+dropout: 0.2
+attention_dropout: 0.0
+revin_affine: false
+norm_type: layernorm
+attention_strategy: alternate
+
+## training
+per_device_train_batch_size: 16
+per_device_eval_batch_size: 16
+adam_eps: 1.0e-8
+weight_decay: 0.01
+max_grad_norm: 1.0
+lr: 0.0002
+max_train_epochs: 100
+seed: 19980406
+gradient_accumulation_steps: 1
+val_check_interval: 1.0
+pct_start: 0.4

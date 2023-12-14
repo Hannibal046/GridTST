@@ -1,0 +1,32 @@
+## device: 1 v100-32G
+## data
+data_file: dataset/solar.csv
+num_channels: 137
+seq_len: 336
+label_len: 96
+stride: 64
+patch_len: 96
+
+## model
+model: gridtst
+num_layers: 3
+d_model: 64
+ffn_dim: 256
+dropout: 0.2
+attention_dropout: 0.2
+revin_affine: true
+norm_type: batchnorm
+attention_strategy: alternate
+
+## training
+per_device_train_batch_size: 128
+per_device_eval_batch_size: 48
+adam_eps: 1.0e-8
+weight_decay: 0.01
+max_grad_norm: 1.0
+lr: 0.0001
+max_train_epochs: 100
+seed: 19980406
+gradient_accumulation_steps: 1
+val_check_interval: 1.0
+pct_start: 0.12

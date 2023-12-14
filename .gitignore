@@ -1,0 +1,10 @@
+draft.ipynb
+draft.py
+.empty
+wandb
+__pycache__
+.vscode
+dataset
+!config/*
+.amlignore
+.amlignore.amltmp
