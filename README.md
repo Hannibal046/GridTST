@@ -1,13 +1,13 @@
 # GridTST
 > A Time Series is Worth 16x16 Words: Long-term Forecasting with GridTST
 
-|   |                          | vanilla Transformer | Multivariate Modeling | Sequntial Modeling |
-|---|:------------------------:|:-------------------:|:---------------------:|:------------------:|
-|   |    DLinear (AAAI2023)    |          ❌          |           ❌           |          ❌         |
-|   |  CrossFormer (ICLR2023)  |          ❌          |           ✔️           |          ✔️         |
-|   |    PatchTST (ICLR2023)   |          ✔️          |           ❌           |          ✔️         |
-|   | iTransformer (ICLR 2024) |          ✔️          |           ✔️           |          ❌         |
-|   |        **GridTST**       |          ✔️          |           ✔️           |          ✔️         |
+|                          | vanilla Transformer | Multivariate Modeling | Sequntial Modeling |
+|:------------------------:|:-------------------:|:---------------------:|:------------------:|
+|    DLinear (AAAI2023)    |          ❌          |           ❌           |          ❌         |
+|  CrossFormer (ICLR2023)  |          ❌          |           ✔️           |          ✔️         |
+|    PatchTST (ICLR2023)   |          ✔️          |           ❌           |          ✔️         |
+| iTransformer (ICLR 2024) |          ✔️          |           ✔️           |          ❌         |
+|        **GridTST**       |          ✔️          |           ✔️           |          ✔️         |
 
 
 |    Model    |   GridTST   | [PatchTST](https://openreview.net/forum?id=Jbdc0vTOcol)  (ICLR 2023) | [iTransformer](https://arxiv.org/abs/2310.06625)  (ICLR 2024)  | [Dlinear](https://arxiv.org/abs/2205.13504)  (AAAI 2023) |
