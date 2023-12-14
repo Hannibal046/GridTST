@@ -33,7 +33,7 @@ accelerate config
 ```
 
 ## Datasets
-This is the dataset we use, you could download [here](https://drive.google.com/drive/folders/16DqgnUZEXd6Vmth-tL9e5JVnadh90GwF?usp=sharing) and put it in the `dataset` folder.
+This is the dataset we use, you could download [here](https://drive.google.com/drive/folders/16DqgnUZEXd6Vmth-tL9e5JVnadh90GwF?usp=sharing) and put all csv files in the `dataset` folder.
 |    Datast   | # Channels | # TimeSteps | Prediction Length |   Information  |
 |:-----------:|:----------:|:-----------:|:-----------------:|:--------------:|
 |   Weather   |     21     |    52696    |  {96,192,336,720} |     Weather    |
