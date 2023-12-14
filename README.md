@@ -43,7 +43,6 @@ This is the dataset we use, you could download [here](https://drive.google.com/d
 |    Etth1    |      7     |    17420    |  {96,192,336,720} |   Electricity  |
 |    Ettm1    |      7     |    69680    |  {96,192,336,720} |   Electricity  |
 |    Solar    |     137    |    52560    |  {96,192,336,720} |     Energy     |
-|    PEMS     |     358    |    26208    |   {12,24,48,60}   | Transportation |
 
 
 ## Get Started
