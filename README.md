@@ -1,5 +1,5 @@
 # GridTST
-> A Time Series is Worth 16x16 Words: Long-term Forecasting with GridTST
+> A simple yet strong Long-term Time Series prediction model.
 
 |                          | vanilla Transformer | Multivariate Modeling | Sequntial Modeling |
 |:------------------------:|:-------------------:|:---------------------:|:------------------:|
