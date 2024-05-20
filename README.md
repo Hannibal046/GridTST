@@ -33,7 +33,7 @@ accelerate config
 ```
 
 ## Datasets
-This is the dataset we use, you could download here and put all csv files in the `dataset` folder.
+This is the dataset we use, you could download [here](https://drive.google.com/drive/folders/16DqgnUZEXd6Vmth-tL9e5JVnadh90GwF?usp=sharing) and put all csv files in the `dataset` folder.
 |    Datast   | # Channels | # TimeSteps | Prediction Length |   Information  |
 |:-----------:|:----------:|:-----------:|:-----------------:|:--------------:|
 |   Weather   |     21     |    52696    |  {96,192,336,720} |     Weather    |
@@ -53,7 +53,7 @@ bash scripts/lookback_window_336/weather.sh
 ```
 
 ## Available Checkpoints
-We provide our trained model on the huggingface space 
+We provide our trained model on the [huggingface space](https://huggingface.co/GridTST)
 
 To evaluate these models, you could either specify a perticular model or evaluate them all at once.
 
