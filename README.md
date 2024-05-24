@@ -1,4 +1,5 @@
 # GridTST
+[Leveraging 2D Information for Long-term Time Series Forecasting with Vanilla Transformers](https://arxiv.org/abs/2405.13810)
 > A simple yet strong Long-term Time Series prediction model.
 
 |                          | vanilla Transformer | Multivariate Modeling | Sequntial Modeling |
