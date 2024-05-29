@@ -1,1 +1,2 @@
 from .gridtst import GridTSTForTimeSeriesPrediction,GridTSTConfig
+from .patchtst import PatchTSTForTimeSeriesPrediction,PatchTSTConfig
